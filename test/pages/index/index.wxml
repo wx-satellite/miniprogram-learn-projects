@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="doRequest" style="width:250rpx;height:150rpx;background-color:black;"></view>
+  <view style="width:250rpx;height:150rpx;background-color:green;"></view>
+  <view style="width:250rpx;height:150rpx;background-color:blue;"></view>
+  <view style="width:250rpx;height:150rpx;background-color:yellow;"></view>
+</view>

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/test-image/image",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "backgroundColorTop": "#fff",
+    "enablePullDownRefresh": true,
+    "backgroundColorBottom": "#000"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

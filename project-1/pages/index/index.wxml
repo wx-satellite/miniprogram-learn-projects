@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<import src="../templates/itemList.wxml"/>
+<view class="container">
+  <template is="itemList"></template>
+  <template is="itemList"></template>
+</view>
+
+

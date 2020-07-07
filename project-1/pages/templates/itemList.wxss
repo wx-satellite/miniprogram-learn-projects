@@ -1,0 +1,59 @@
+.item {
+  background-color: #FFFFFF;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20rpx;
+  padding-top: 10rpx;
+}
+
+
+.text-info text {
+  display: inline-block;
+  font-size: 30rpx;
+  color: #262626;
+}
+
+.text-info .item-name {
+  font-weight: 600;
+  font-size: 32rpx;
+}
+
+.text-row {
+  padding-left: 10rpx;
+  padding-bottom: 20rpx;
+}
+
+.text-row text:nth-child(2) {
+  padding: 0 10rpx;
+}
+.text-row text {
+  color: #999999;
+}
+
+
+
+.item-picture {
+  display: block;
+  width: 100%;
+  height: 380rpx;
+}
+.logo image {
+  display: block;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 100%;
+}
+
+.item .logo {
+  box-sizing: border-box;
+  position: absolute;
+  right: 40rpx;
+  bottom: 67rpx;
+}

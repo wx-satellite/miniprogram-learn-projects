@@ -1,0 +1,16 @@
+<template name="itemList">
+<view class="item">
+    <image src="/pages/images/product3.jpg" bindtap="toDetail" class="item-picture" data-index="0"></image>
+    <view class="text-info">
+      <text class="item-name">虹桥区二手房</text>
+      <view class="text-row">
+        <text>两室一厅一卫</text>
+        <text>|</text>
+        <text>60m²</text>
+      </view>
+    </view>
+    <view class="logo">
+      <image src="/pages/images/logo.png"></image>
+    </view>
+  </view>
+</template>

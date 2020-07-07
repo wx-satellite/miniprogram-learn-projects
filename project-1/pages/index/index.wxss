@@ -1,0 +1,8 @@
+/**index.wxss**/
+@import "/pages/templates/itemList.wxss";
+
+.container{
+  padding: 0 20rpx 20rpx 20rpx;
+  background-color: #EEEEEE;
+  border-top: 1px #fff solid;
+}
