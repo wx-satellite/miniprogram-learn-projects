@@ -1,1 +1,88 @@
 /**index.wxss**/
+
+.container {
+  background-color: #BBB;
+}
+.top {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.top navigator {
+  width: 50%;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40rpx 0 25rpx;
+}
+
+.top-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px #d8d8d8 solid;
+}
+
+.top-item image {
+  height: 62rpx;
+  width: 62rpx;
+}
+
+.top-item text {
+  margin-top: 30rpx;
+  font-size: 30rpx;
+}
+
+.clearborder {
+  border: none;
+}
+
+.content {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.tag {
+  font-size: 28rpx;
+  padding: 15rpx 0;
+  padding-left: 40rpx;
+  display: block;
+}
+
+
+
+.list-item navigator {
+  padding: 30rpx 30rpx 0 30rpx
+}
+.list-item-image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.list-item-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 26rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px #ddd solid;
+}
+.list-item-title {
+  font-size: 28rpx;
+  color: #080808;
+}
+.list-item-info-right {
+  flex-grow: 2; /* 撑满 */
+  margin-left: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list-item-other {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

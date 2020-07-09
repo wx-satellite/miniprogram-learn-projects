@@ -1,2 +1,132 @@
 <!--index.wxml-->
-
+<scroll-view class="container" scroll-y="true">
+  <view class="area">
+    <view class="top">
+      <navigator url="">
+        <view class="top-item">
+          <image src="../images/p1.jpg"></image>
+          <text>礼物挑选器</text>
+        </view>
+      </navigator>
+      <navigator url="">
+        <view class="top-item noborder">
+          <image src="../images/p1.jpg"></image>
+          <text>逛一逛</text>
+        </view>
+      </navigator>
+    </view>
+    <view class="content">
+      <text class="tag">攻略</text>
+      <view class="list">
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="list-item">
+          <navigator url="">
+            <view class="list-item-info">
+              <image src="../images/list.jpg" class="list-item-image"></image>
+              <view class="list-item-info-right">
+                <text class="list-item-title">欢迎来到海贼时代：你就是海贼王！</text>
+                <view class="list-item-other">
+                  <view>
+                    特色：有调
+                  </view>
+                  <view>
+                    浏览量：2200
+                  </view>
+                </view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
