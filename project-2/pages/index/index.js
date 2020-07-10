@@ -3,9 +3,12 @@
 const app = getApp()
 Page({
   data: {
-    motto: 'Hello World'
+    motto: 'Hello World',
+    scrollHeight: 0
   },
   onLoad: function () {
+    let scrollHeight = wx.getSystemInfoSync().windowHeight
+    this.setData({scrollHeight:scrollHeight})
     let myFirstPromise = new Promise((resolve, reject) => {  
       // We call resolve(...) when what we were doing asynchronously was successful, and reject(...) when it failed.
       // In this example, we use setTimeout(...) to simulate async code. 
@@ -20,5 +23,8 @@ Page({
       // It doesn't have to be a string, but if it is only a succeed message, it probably will be.
       console.log("Yay! " + successMessage);
     });
+  },
+  bindscrolltolower: function(){
+    console.log(111)
   }
 })

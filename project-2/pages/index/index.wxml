@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<scroll-view class="container" scroll-y="true">
+<scroll-view class="container" scroll-y="true" bindscrolltolower="bindscrolltolower" style="height:{{scrollHeight}}px">
   <view class="area">
     <view class="top">
       <navigator url="">
@@ -128,5 +128,18 @@
         </view>
       </view>
     </view>
+  </view>
+  <view class="loading-container">
+    <view class="loadEffect hide">
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+        <text></text>
+    </view>
+    <text>加载完成</text>
   </view>
 </scroll-view>

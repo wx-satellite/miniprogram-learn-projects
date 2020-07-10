@@ -86,3 +86,28 @@ padding: 40rpx 0 25rpx;
   flex-direction: row;
   justify-content: space-between;
 }
+
+.loading-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24rpx;
+  color:#999;
+  padding: 20rpx 0;
+}
+
+
+
+.loadEffect {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  border: 2rpx #CCC solid;
+  border-left: 2rpx red solid;
+  animation: load 0.7s linear infinite;
+}
+@keyframes load{
+  from {-webkit-transform: rotate(0);}
+  to {-webkit-transform: rotate(359deg);}
+}
